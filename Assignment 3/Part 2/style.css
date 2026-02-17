@@ -47,4 +47,25 @@ footer p {
   text-align: center;
 }
 
+/* text styling */
 
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+section h2 + p {
+  text-indent: 2rem;
+}
+
+p, li {
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
