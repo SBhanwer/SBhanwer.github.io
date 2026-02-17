@@ -1,3 +1,16 @@
+/* Applied fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+
+html {
+  font-family: "Lora", serif;
+}
+
+h1, h2 {
+  font-family: "Roboto", serif;
+}
+
 /* General setup */
 
 * {
@@ -33,3 +46,5 @@ footer {
 footer p {
   text-align: center;
 }
+
+
