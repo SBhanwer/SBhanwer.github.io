@@ -112,3 +112,40 @@ ol {
 }
 
 
+/* Navigation styling */
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li a {
+  font-family: "Roboto", serif;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  line-height: 3.5;
+  border: 1px solid #aa6666;
+  text-decoration: none;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-bottom: 20px;
+}
+
+nav li a:focus, nav li a:hover {
+  color: white;
+  background: #aa6666 ;
+}
+
+nav li a:active {
+  color: white;
+  background: black;
+}
